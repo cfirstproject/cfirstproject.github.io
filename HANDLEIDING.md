@@ -15,6 +15,14 @@ Elke wijziging die je in `index.html` opslaat ("commit"), staat **1 à 2 minuten
 later automatisch live** op https://cfirstproject.github.io. Meer is publiceren
 niet.
 
+> ⚠️ **Belangrijk — de gouden regel.** Deze repository is **openbaar**: iedereen kan
+> alle bestanden én de volledige wijzigingsgeschiedenis bekijken, voor altijd. Zet
+> daarom **nooit** de naam van een gekozen persoon ergens neer — niet op de site,
+> niet in een concepttekst, en ook niet in een commit-omschrijving zoals "brief voor
+> [naam] aangepast". Eén slordige tussenversie is publiek en onuitwisbaar, en daarmee
+> zou het *No publicity*-principe gebroken zijn. Namen en conceptbrieven horen alleen
+> op je eigen computer.
+
 ## 2. De status van het huidige werk bijwerken (meest voorkomende klus)
 
 1. Ga naar de repository op github.com en klik op `index.html`.
