@@ -14,6 +14,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>C¹ — CustomerFirst · One individual. One work. One moment of value.</title>
 <meta name="description" content="CustomerFirst is an ongoing art project built on one principle: each work is created for one specifically chosen individual. Only that person may acquire the work — and determines its value, or decides not to.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="canonical" href="https://cfirstproject.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CustomerFirst">
+<meta property="og:title" content="C¹ — CustomerFirst">
+<meta property="og:description" content="One individual. One work. One moment of value. An ongoing art project: each work is created for one specifically chosen individual.">
+<meta property="og:url" content="https://cfirstproject.github.io/">
+<meta property="og:image" content="https://cfirstproject.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="C¹ — CustomerFirst">
+<meta name="twitter:description" content="One individual. One work. One moment of value. An ongoing art project.">
+<meta name="twitter:image" content="https://cfirstproject.github.io/og.png">
 <style>
   :root{
     --cream:#F3F0E9;
@@ -259,6 +273,14 @@
   }
   footer .fl a:hover{border-color:var(--accent);color:var(--accent)}
   footer .legal{margin-top:48px;font-size:12px;color:var(--muted);letter-spacing:.06em}
+
+  /* respect users who prefer less motion */
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    .rv{opacity:1;transform:none;transition:none}
+    .pulse,.scroll-hint,.seq li.now .ic{animation:none}
+    .seq li.now .ic{box-shadow:0 0 0 5px rgba(228,82,33,.12)}
+  }
 </style>
 </head>
 <body>
@@ -491,9 +513,9 @@
   <div class="fline rv">One individual. One work. One moment of value.</div>
   <div class="fl rv d1">
     <a href="https://www.instagram.com/cfirstproject" target="_blank" rel="noopener">Instagram</a>
-    <a href="mailto:contact@cfirst.nl">Contact</a>
+    <a href="mailto:cfirstproject@gmail.com">Contact</a>
   </div>
-  <div class="legal">© CustomerFirst — an ongoing art project · cfirst.nl</div>
+  <div class="legal">© CustomerFirst — an ongoing art project</div>
 </footer>
 
 <script>
